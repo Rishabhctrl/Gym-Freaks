@@ -1,0 +1,226 @@
+/*CSS Reset */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('image/background.jpg')no-repeat;
+    background-size: cover;
+
+}
+.left {
+    display: flex;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    align-items: center;
+}
+
+.left img {
+    width: 106px;
+    filter: invert(100%);
+    border-radius: 100%;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 46%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 100px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+/* Container for the fitness calculator */
+.container {
+    border: 2px solid white;
+    margin: 100px auto; /* Centering the container */
+    padding: 40px;
+    width: 50%; /* Adjusted width for better display */
+    border-radius: 28px;
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Adding shadow for depth */
+}
+
+/* Result display */
+.result {
+    font-size: 20px;
+    color: lightgreen; /* Color for the result text */
+    margin-top: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin: 15px 0; /* Space between input fields */
+}
+
+/* Input fields */
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 100%; /* Full width */
+    padding: 10px;
+    border: 2px solid #ccc; /* Light border for inputs */
+    border-radius: 8px;
+    font-size: 20px;
+    transition: border-color 0.3s; /* Transition for border color */
+}
+
+/* Focus effect for input fields */
+.form-group input:focus {
+    border-color: lightblue; /* Border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button styling */
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 20px auto; /* Centering the button */
+    background-color: #000; /* Button background */
+    color: white; /* Button text color */
+    padding: 12px 24px; /* Increased padding for larger button */
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 22px; /* Slightly larger font size */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Animation on hover */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: rgb(31, 30, 30); /* Darker on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Animation for the result */
+.result {
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-20px); /* Slightly move up */
+    animation: fadeIn 0.5s forwards; /* Animation effect */
+}
+
+/* Keyframes for the fade-in effect */
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Back to original position */
+    }
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Full width on smaller screens */
+    }
+
+    .header {
+        width: 90%; /* Full width on smaller screens */
+    }
+}
+
+/* Quote container */
+.quote-container {
+    padding: 20px;
+    padding-top: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+.quote {
+    font-family: cursive;
+    background-color: black;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 35px;
+
+}
+
+
+.brder:hover{
+    border: 2px solid rgb(8, 8, 8);
+}
